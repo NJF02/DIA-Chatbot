@@ -2,15 +2,13 @@ import random
 import json
 import torch
 
-from utils import tokenise_lemmatise, bag_of_words, check_typo, analyse_sentiment
-
-from model_framework import NeuralNet
-
-from settings import train_path, data_path, sub_categories
-
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-# initiliase model parameters
+from utils import tokenise_lemmatise, bag_of_words, check_typo, analyse_sentiment
+from model_framework import NeuralNet
+from settings import train_path, data_path, sub_categories
+
+# initialise model parameters
 intents = {}
 input_size = {}
 hidden_size = {}
@@ -20,7 +18,7 @@ all_words = {}
 model_state = {}
 model = {}
 
-# obtain master model parameters
+# access master model parameters
 json_file = train_path + "master.json"
 data_file = data_path + "master.pth"
 with open(json_file, 'r', encoding = 'utf-8') as json_data:
@@ -28,6 +26,7 @@ with open(json_file, 'r', encoding = 'utf-8') as json_data:
 
 data = torch.load(data_file)
 
+# obtain model hyperparameters
 input_size['master'] = data['input_size']
 hidden_size['master'] = data['hidden_size']
 output_size['master'] = data['output_size']
@@ -40,7 +39,7 @@ model['master'] = NeuralNet(input_size['master'], hidden_size['master'], output_
 model['master'].load_state_dict(model_state['master'])
 model['master'].eval()
 
-# obtain sub category models parameters
+# access sub category models parameters
 for sub_category in sub_categories:
     json_file = train_path + sub_category + ".json"
     data_file = data_path + sub_category + ".pth"
@@ -49,6 +48,7 @@ for sub_category in sub_categories:
 
     data = torch.load(data_file)
 
+    # obtain model hyperparameters
     input_size[sub_category] = data['input_size']
     hidden_size[sub_category] = data['hidden_size']
     output_size[sub_category] = data['output_size']

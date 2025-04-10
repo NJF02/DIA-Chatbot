@@ -5,11 +5,11 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 
-from Chatbot.utils import tokenise_lemmatise, bag_of_words
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-from Chatbot.model_framework import NeuralNet
-
-from Chatbot.settings import train_path, data_path, sub_categories
+from utils import tokenise_lemmatise, bag_of_words
+from model_framework import NeuralNet
+from settings import train_path, data_path, sub_categories
 
 class ChatDataset(Dataset):
     def __init__(self, x_train, y_train, transform = None):
@@ -18,11 +18,9 @@ class ChatDataset(Dataset):
         self.len = len(x_train)
         self.transform = transform
 
-    # get i-th sample
     def __getitem__(self, index):
         return self.x[index], self.y[index]
 
-    # return sample size
     def __len__(self):
         return self.len
 
@@ -48,9 +46,10 @@ def preprocess_data(json_file):
     all_words = sorted(set(all_words))
     tags = sorted(set(tags))
 
-    print(len(xy), "patterns")
+    # display tags and words
     print(len(tags), "tags:", tags)
     print(len(all_words), "unique stemmed words:", all_words)
+    print(len(xy), "patterns")
     
     return tags, all_words, xy
 
@@ -59,10 +58,10 @@ def train_model(tags, all_words, xy, data_file):
     x_train = []
     y_train = []
     for sentence, tag in xy:
-        # X: bag of words for each pattern_sentence
+        # bag of words for each pattern sentence
         bag = bag_of_words(sentence, all_words)
         x_train.append(bag)
-        # y: PyTorch CrossEntropyLoss needs only class labels, not one-hot
+        # class labels
         label = tags.index(tag)
         y_train.append(label)
 
@@ -80,7 +79,6 @@ def train_model(tags, all_words, xy, data_file):
 
     dataset = ChatDataset(x_train = x_train, y_train = y_train)
     train_loader = DataLoader(dataset = dataset, batch_size = batch_size, shuffle = True, num_workers = 0)
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     model = NeuralNet(input_size, hidden_size, output_size).to(device)
 
