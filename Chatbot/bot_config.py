@@ -87,17 +87,21 @@ def determine_tag(category, X):
     else:
         return None, None
 
-unclear_responses = ["I didn't understand your message. You could try asking about our location, viewing the menu, or checking our opening hours.",
-"Hmm, I'm not sure how to help with that. Maybe try asking about reservations, the menu, or the restaurant's location.",
-"I'm sorry, I didn't quite catch that. Perhaps you could rephrase it, or ask about things like reservations, the menu, or our business hours.",
-"I'm not sure I understood that. You might want to ask about our menu, how to make a reservation, or what time we're open.",
-"Oops! That's outside what I can understand right now. You could try asking about our menu, opening hours, how to make a reservation, or where to find our website."]
+unclear_responses = [
+    "I didn't understand your message. You could try asking about our location, viewing the menu, or checking our opening hours.",
+    "Hmm, I'm not sure how to help with that. Maybe try asking about reservations, the menu, or the restaurant's location.",
+    "I'm sorry, I didn't quite catch that. Perhaps you could rephrase it, or ask about things like reservations, the menu, or our business hours.",
+    "I'm not sure I understood that. You might want to ask about our menu, how to make a reservation, or what time we're open.",
+    "Oops! That's outside what I can understand right now. You could try asking about our menu, opening hours, how to make a reservation, or where to find our website."
+    ]
     
-negative_responses = ["Apologies for the inconvenience.",
-"I truly apologise for the trouble.",
-"I understand your frustration, and I'm sorry.",
-"I'm sorry, and I appreciate your patience.",
-"We're sorry things didn't go as expected."]
+negative_responses = [
+    "Apologies for the inconvenience.",
+    "I truly apologise for the trouble.",
+    "I understand your frustration, and I'm sorry.",
+    "I'm sorry, and I appreciate your patience.",
+    "We're sorry things didn't go as expected."
+    ]
     
 def get_response(msg):
     # check for typos
