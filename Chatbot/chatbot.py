@@ -1,5 +1,5 @@
 from tkinter import *
-from bot_config import bot_name, get_response, analyse_text
+from bot_config import bot_name, get_response
 
 BG_GRAY = "#ABB2B9"
 BG_COLOR = "#17202A"
@@ -82,7 +82,7 @@ class ChatApplication:
         # self.text_widget.configure(state = DISABLED)
         
         # Bot response
-        bot_msg = f"{bot_name}: {get_response(msg)}\n\n"
+        bot_msg = f"{bot_name}: {get_response(msg)['response']}\n\n"
         self.text_widget.configure(state = NORMAL)
         self.text_widget.insert(END, bot_msg)
         self.text_widget.configure(state = DISABLED)

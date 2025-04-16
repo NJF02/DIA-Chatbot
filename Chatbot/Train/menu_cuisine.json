@@ -16,6 +16,11 @@
             "responses": ["Our avocado toast with poached eggs and feta is a customer favorite, along with our signature cold brew coffee.", "Our Big Breakfast Platter and Truffle Mushroom Pasta are customer favorites!"]
         },
         {
+            "tag": "dessert",
+            "patterns": ["Are your desserts made in-house?", "What type of desserts do you serve?", "Do you offer desserts?"],
+            "responses": ["We serve cakes, pastries, and desserts, and they are freshly made in-house daily."]
+        },
+        {
             "tag": "vegetarian_vegan",
             "patterns": ["Do you offer vegetarian options?", "Do you offer vegan options?", "Anything vegetarian friendly?", "What do you recommend for vegetarians?"],
             "responses": ["We have a variety of vegetarian and vegan options, including plant-based sandwiches, dairy-free smoothies, and vegan pastries."]

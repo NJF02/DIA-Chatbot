@@ -36,6 +36,11 @@
             "responses": ["We recommend casual or smart-casual attire; there is no strict dress code."]
         },
         {
+            "tag": "walkins",
+            "patterns": ["Are walk-ins allowed, or do I need a reservation?", "Can I walk-in?", "Do you allow walkin?"],
+            "responses": ["We welcome walkins, but reservations are recommended to avoid waiting, especially during peak hours."]
+        },
+        {
             "tag": "outdoor_seating",
             "patterns": ["Do you have outdoor seating?", "Is there any place for me to sit outside?", "Can I sit outside?"],
             "responses": ["Since we are located in a mall, there is no outdoor seating."]
