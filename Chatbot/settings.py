@@ -1,6 +1,7 @@
-# insert your directory below
-dir = 'C:/Users/User/Desktop/DIA/Coursework/Chatbot'
+from pathlib import Path
 
-train_path = dir + '/Train/'
-data_path = dir + '/Data/'
-sub_categories = ['general', 'menu_cuisine', 'reservation', 'delivery']
+dir = str(Path(__file__).parent)
+
+train_path = dir + '\\Train\\'
+data_path = dir + '\\Data\\'
+categories = ['general', 'menu_cuisine', 'reservation', 'delivery']

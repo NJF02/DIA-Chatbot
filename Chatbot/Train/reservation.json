@@ -3,7 +3,7 @@
         {
             "tag": "make_reservation",
             "patterns": ["Reservation", "Booking", "I want to book a table", "Can I make a reservation?", "I would like to make a reservation", "How do I make a reservation?"],
-            "responses": ["You can book directly on our website or you may call us at +60 1-800-88-1234."]
+            "responses": ["You can book on our website or directly here. Would you like to make a reservation now?"]
         },
         {
             "tag": "deposit",
@@ -18,7 +18,7 @@
         {
             "tag": "same_day_reservation",
             "patterns": ["Can I book a table for today?", "Can I make a reservation for today?", "Can I do same day bookings?"],
-            "response": ["Same-day reservations are allowed, subject to availability."]
+            "responses": ["Same-day reservations are allowed, subject to availability."]
         },
         {
             "tag": "study_sessions_work_meetings",

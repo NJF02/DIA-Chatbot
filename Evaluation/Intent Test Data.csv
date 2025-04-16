@@ -1,0 +1,124 @@
+﻿What are your opening hours?,opening_hours
+Are you open on weekends?,opening_hours
+Do you close on public holidays?,opening_hours
+Can I see your menu online?,menu
+Do you have vegetarian options?,vegetarian_vegan
+Do you serve alcohol?,alcohol
+What’s your signature dish?,specialty
+Do you offer dessert?,dessert
+How do I make a reservation?,make_reservation
+Do you charge for reservations?,deposit
+What’s your cancellation policy for delivery?,cancel_delivery
+Can I pay online when ordering takeaway?,payment
+Do you offer takeaway?,order_delivery
+Which delivery platforms are you on?,order_delivery
+Is there parking available?,parking
+What packaging do you use?,packaging
+Can I get utensils with takeaway?,utensils
+Will my food stay warm?,warm
+Do you provide contactless delivery?,contactless_delivery
+What’s your cancellation policy for reservation?,cancel_reservation
+Do you offer private dining rooms?,private_event
+How do I cancel my reservation?,cancel_reservation
+Can I make a reservation for today?,same_day_reservation
+I want to book a table for today,same_day_reservation
+Can I stay in the restaurant to study?,study_sessions_work_meetings
+Is there a deposit required for reservation?,deposit
+Does your restaurant have wifi?,wifi
+What is the wifi password?,wifi
+How long am I allowed to stay for?,time_limit
+Is there a set time limit?,time_limit
+How can I leave a review?,feedback
+I would like to leave a review,feedback
+Can I post a review?,feedback
+What is your website?,website
+Can you give me the website link?,website
+Where can I access your website?,website
+Can I get an outdoor seat?,outdoor_seating
+Do you offer outdoor seat?,outdoor_seating
+"I would like to sit outside, is this possible?",outdoor_seating
+Where can I park?,parking
+Is there a valet service?,parking
+Is there free parking?,parking
+Do you guys have a menu for kids?,kids_menu
+Can I get the kids menu?,kids_menu
+Are you halal?,halal
+Is there halal food?,halal
+How big is the portion of food?,portion
+Do you have vegan options?,vegetarian_vegan
+Is the portion considered large?,portion
+When do you open?,opening_hours
+Are you open on public holidays?,opening_hours
+Where are you located?,location
+Do you have parking available?,parking
+Can I get directions to your restaurant?,location
+How can I contact the restaurant?,website
+Do you offer Wi-Fi for customers?,wifi
+What payment methods do you accept?,payment
+Do you have any current promotions?,promotions
+Are there any special events happening this week?,events
+Can I see your menu?,menu
+Do you have vegetarian options?,vegetarian_vegan
+Do you offer vegan dishes?,vegetarian_vegan
+Are there any gluten-free items on the menu?,gluten_free
+What's your most popular dish?,specialty
+Do you have a kids' menu?,kids_menu
+Are there any chef specials today?,specialty
+What are your dessert options?,dessert
+How do I make a reservation?,make_reservation
+Can I change my reservation?,change_reservation
+Can I cancel my reservation?,cancel_reservation
+Do you accept walk-ins?,walkins
+Is there a deposit required for large group bookings?,deposit
+Do you offer private dining rooms?,private_event
+Can I make a reservation for a special occasion?,make_reservation
+Do you offer delivery services?,order_delivery
+Can I order online?,order_delivery
+Do you have contactless pickup?,contactless_delivery
+What delivery platforms are you on?,order_delivery
+Is your food halal/kosher?,halal
+How can I leave a review?,feedback
+Who do I contact about a complaint?,feedback
+"I had a bad experience, can I speak to someone?",feedback
+How do I give feedback?,feedback
+Do you offer catering services?,catering
+Can I book the restaurant for an event?,private_event
+Is there a dress code at your restaurant?,dresscode
+Can I wear casual clothes to dine in?,dresscode
+Do you allow beachwear or swimwear?,dresscode
+Is formal attire required for dinner?,dresscode
+Do you have outdoor seating available?,outdoor_seating
+Can I reserve a table outside?,outdoor_seating
+What is your website URL?,website
+Can I place an order through your website?,website
+Is your menu available on the website?,website
+Can I make a reservation on your website?,make_reservation
+Can I make a same-day reservation?,same_day_reservation
+How late can I make a reservation for today?,same_day_reservation
+Is it possible to reserve a table an hour in advance?,same_day_reservation
+Can I bring my laptop to work at your restaurant?,study_sessions_work_meetings
+Do you have quiet areas suitable for studying?,study_sessions_work_meetings
+Do you allow group study sessions?,study_sessions_work_meetings
+Can I host a business meeting at your place?,study_sessions_work_meetings
+Can I book the restaurant for a private party?,private_event
+Do you offer event planning or coordination services?,private_event
+Can I bring my own decorations for a private event?,private_event
+What should I do if I received the wrong order?,wrong_delivery
+Can I get a refund for a wrong delivery?,wrong_delivery
+Do you offer contactless delivery?,contactless_delivery
+How do I request contactless delivery?,contactless_delivery
+Can the delivery be left at my door?,contactless_delivery
+Is your packaging eco-friendly?,packaging
+Can I request minimal packaging?,packaging
+Do you offer reusable containers?,packaging
+What kind of packaging do you use for takeout?,packaging
+Can I request extra utensils?,utensils
+Do you include utensils with delivery?,utensils
+Can I opt out of receiving utensils?,utensils
+Are your utensils biodegradable?,utensils
+Do you serve alcohol?,alcohol
+Do you offer cocktails or just beer and wine?,alcohol
+Is your meat halal-certified?,halal
+Do you have halal options on your menu?,halal
+Can I see a list of your halal dishes?,halal
+Is your kitchen fully halal-compliant?,halal

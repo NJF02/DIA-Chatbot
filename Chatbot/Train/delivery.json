@@ -3,12 +3,12 @@
         {
             "tag": "order_delivery",
             "patterns": ["Delivery", "Do you offer delivery?", "Can I get my food delivered?", "How do I order for delivery?", "I would like to place a delivery"],
-            "responses": ["We partner with popular delivery apps like Grab and Shopee Food. You can also order via our website."]
+            "responses": ["We partner with popular delivery apps like Grab and Shopee Food. You can also place an order here, would you like to proceed?"]
         },
         {
             "tag": "cancel_delivery",
             "patterns": ["Can I cancel my delivery order after placing it?", "I want to cancel my delivery", "Can you cancel my delivery?"],
-            "responses": ["Orders can only be cancelled before preparation starts. Please check the cancellation policy in the app."]
+            "responses": ["Orders can only be cancelled before preparation starts. Would you like to proceed?"]
         },
         {
             "tag": "wrong_delivery",
