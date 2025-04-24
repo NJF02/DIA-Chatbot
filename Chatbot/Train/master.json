@@ -1,0 +1,59 @@
+{
+    "intents": [
+        {
+            "tag": "general",
+            "patterns": 
+            ["Hi", "Hello", "Hey", "Helo", "Halo", "Good morning", "Good afternoon", "Good evening",
+            "Bye", "Goodbye", "See you later", "See you again", "Take care",
+            "Thanks", "Thank you", "Thank you so much", "I appreciate it", "Thanks for your help", "Thank you for your assistance",
+            "What are your opening hours?", "When do you open?", "Are you open on weekends?", "What time do you open?", "What time do you close?",
+            "Where is the restaurant located?", "What's your address?", "How do I find you?", "Where can I find you?",
+            "Is there parking available?", "Where should I park?", "Can I park my car?", "Do you have carparks?",
+            "Do you have a dress code?", "What should I wear?", "Do I have to wear anything specific?", "Can I wear anything?",
+            "Are walk-ins allowed, or do I need a reservation?", "Can I walk-in?", "Do you allow walkin?",
+            "Do you have outdoor seating?", "Is there any place for me to sit outside?", "Can I sit outside?",
+            "Is there a time limit for dining?", "How long can I stay for the meal?", "How much time do I have before I have to leave?", "How long do I have for my meal?",
+            "Do you have free WiFi available for customers?", "Can I ask for the WiFi password?", "Is there internet access?", "Can I connect to the internet?",
+            "Can I access your website for more details?", "Where can I find more information about your restaurant?", "I want to know more about your restaurant",
+            "What payment methods do you accept?", "Can I pay by card?", "Do you accept cash?", "How do I pay?", "How can I pay?",
+            "I want to leave a review", "How can I give feedback?", "Where can I post my review?", "How can I give a review?"]
+        },
+        {
+            "tag": "menu_cuisine",
+            "patterns": 
+            ["Menu", "Can I have a look at your menu?", "Show me the menu", "Do you have a menu?", "What's on the menu?",
+            "What type of food do you serve?", "What kind of food do you sell?", "What can I eat?", "What do you serve?",
+            "Can you recommend a signature dish?", "What are you specialties?", "Anything special on the menu?", "What is your best food?", "What is your most popular dish?", "I want to have your specialty dish.",
+            "Are your desserts made in-house?", "What type of desserts do you serve?", "Do you offer desserts?",
+            "Do you offer vegetarian options?", "Do you offer vegan options?", "Anything vegetarian friendly?", "What do you recommend for vegetarians?",
+            "Is your restaurant halal-certified?", "Do you serve halal food only?", "Are you a halal restaurant?",
+            "Do you have a kids' menu?", "Do you have food for kids?", "Can I order something suitable for my kids?", "I want to order food for kids",
+            "Do you have gluten-free items?", "Are you food gluten-free?", "Can I get gluten-free food?",
+            "Do you serve alcohol?", "Can I buy alcohol?", "I want some alcohol", "Do you sell alcohol?", 
+            "How big are the portion sizes for your main courses?", "Are your food in big portions?", "Can I have big portions for the food?", "I want to have big portions for the food.",
+            "How much does this cost?", "Can you tell me the price for this?", "I want to know how much I have to pay for this.", "What is the cost of this?", 
+            "How much calories does this have?", "Does this have more than 200 calories?", "Please tell me the calories of consuming this.", "What is the calorie for this?"]
+        },
+        {
+            "tag": "reservation",
+            "patterns": 
+            ["Reservation", "Booking", "I want to book a table", "Can I make a reservation?", "I would like to make a reservation", "How do I make a reservation?",
+            "Do you require a deposit for reservations?", "Do I need to pay in advance for bookings?",
+            "I want to cancel my reservation.", "Can I cancel my reservation?", "Do you charge for cancelling reservation?",
+            "Can I book a table for today?", "Can I make a reservation for today?", "Can I do same day bookings?",
+            "Can I reserve a table for study sessions or work meetings?", "Can I stay for study?", "Can we book for a work meeting?",
+            "Can I book a private event?", "I want to book for a private event.", "We are doing a private event, can I make a reservation?"]
+        },
+        {
+            "tag": "delivery",
+            "patterns": 
+            ["Delivery", "Do you offer delivery?", "Can I get my food delivered?", "How do I order for delivery?", "I would like to place a delivery",
+            "Can I cancel my delivery order after placing it?", "I want to cancel my delivery", "Can you cancel my delivery?",
+            "What should I do if I receive the wrong order?", "I received the wrong food", "The food I get does not match with what I ordered",
+            "Do you offer eco-friendly or biodegradable packaging?", "Is there packaging for my food?", "What packaging do you use for delivery?",
+            "Do you provide utensils with takeout or delivery?", "Will the delivery come with utensils?", "Can I get a spoon and fork with the delivery?",
+            "Will hot items stay warm during delivery?", "I want my food to stay warm", "Will I get my food warm?",
+            "Can I request contactless delivery?", "I want to have contactless delivery.", "Can I get my food contactless?"]
+        }
+    ]
+}

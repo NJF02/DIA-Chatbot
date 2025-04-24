@@ -1,0 +1,74 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Helo", "Halo", "Good morning", "Good afternoon", "Good evening"],
+            "responses": ["Hello! Welcome to our restaurant. How can I assist you today?", "Hi there! How may I help you?", "Hey! Looking for a great meal? I'm here to help!"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "Goodbye", "See you later", "See you again", "Take care"],
+            "responses": ["Goodbye! Have a great day!", "See you soon!", "Take care and visit us again!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "Thank you so much", "I appreciate it", "Thanks for your help", "Thank you for your assistance"],
+            "responses": ["You're welcome!", "Glad to help!", "Anytime! Enjoy your meal!"]
+        },
+        {
+            "tag": "opening_hours",
+            "patterns": ["What are your opening hours?", "When do you open?", "Are you open on weekends?", "What time do you open?", "What time do you close?"],
+            "responses": ["We are open from 8 AM to 10 PM every day! Let us know when you'd like to visit.", "Our hours are 8 AM - 10 PM. We are open on weekends too!"]
+        },
+        {
+            "tag": "location",
+            "patterns": ["Where is the restaurant located?", "What's your address?", "How do I find you?", "Where can I find you?"],
+            "responses": ["We're located at Pavilion Kuala Lumpur, Level 3, near Centre Court, next to Muji, and opposite Adidas."]
+        },
+        {
+            "tag": "parking",
+            "patterns": ["Is there parking available?", "Where should I park?", "Can I park my car?", "Do you have carparks?"],
+            "responses": ["Parking is available at Pavilion Kuala Lumpur's designated parking areas, with multiple entry points and ample spaces for visitors."]
+        },
+        {
+            "tag": "dresscode",
+            "patterns": ["Do you have a dress code?", "What should I wear?", "Do I have to wear anything specific?", "Can I wear anything?"],
+            "responses": ["We recommend casual or smart-casual attire; there is no strict dress code."]
+        },
+        {
+            "tag": "walkins",
+            "patterns": ["Are walk-ins allowed, or do I need a reservation?", "Can I walk-in?", "Do you allow walkin?"],
+            "responses": ["We welcome walkins, but reservations are recommended to avoid waiting, especially during peak hours."]
+        },
+        {
+            "tag": "outdoor_seating",
+            "patterns": ["Do you have outdoor seating?", "Is there any place for me to sit outside?", "Can I sit outside?"],
+            "responses": ["Since we are located in a mall, there is no outdoor seating."]
+        },
+        {
+            "tag": "time_limit",
+            "patterns": ["Is there a time limit for dining?", "How long can I stay for the meal?", "How much time do I have before I have to leave?", "How long do I have for my meal?"],
+            "responses": ["We generally do not impose a time limit, but during peak hours we may politely ask if you can free up the table once you've finished your meal."]
+        },
+        {
+            "tag": "wifi",
+            "patterns": ["Do you have free Wi-Fi available for customers?", "Can I ask for the Wi-Fi password?", "Is there internet access?", "Can I connect to the internet?"],
+            "responses": ["We offer free WiFi for our guests. You can ask our staff for the login details."]
+        },
+        {
+            "tag": "website",
+            "patterns": ["Can I access your website for more details?", "Where can I find more information about your restaurant?", "I want to know more about your restaurant"],
+            "responses": ["You can access our website at www.cafebot.com for more information. We're are happy to assist!"]
+        },
+        {
+            "tag": "payment",
+            "patterns": ["What payment methods do you accept?", "Can I pay by card?", "Do you accept cash?", "How do I pay?", "How can I pay?"],
+            "responses": ["We accept cash, credit/debit cards, and online payments. Let us know what works best for you!", "We accept all major payment methods including digital wallets!"]
+        },
+        {
+            "tag": "feedback",
+            "patterns": ["I want to leave a review", "How can I give feedback?", "Where can I post my review?", "How can I give a review?"],
+            "responses": ["We'd love to hear from you! You can leave a review on our website. Thank you for your support!", "Your feedback means a lot! Please share it on our website!"]
+        }
+    ]
+}

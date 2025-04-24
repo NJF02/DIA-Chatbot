@@ -1,0 +1,200 @@
+﻿What are your opening hours?,general,opening_hours
+Are you open on weekends?,general,opening_hours
+Do you close on public holidays?,general,opening_hours
+Can I see your menu online?,menu_cuisine,menu
+Do you have vegetarian options?,menu_cuisine,vegetarian_vegan
+Do you serve alcohol?,menu_cuisine,alcohol
+What’s your signature dish?,menu_cuisine,specialty
+Do you offer dessert?,menu_cuisine,dessert
+How do I make a reservation?,reservation,make_reservation
+Do you charge for reservations?,reservation,deposit
+What’s your cancellation policy for delivery?,delivery,cancel_delivery
+Can I pay online when ordering takeaway?,general,payment
+Do you offer takeaway?,delivery,order_delivery
+Which delivery platforms are you on?,delivery,order_delivery
+Is there parking available?,general,parking
+What packaging do you use?,delivery,packaging
+Can I get utensils with takeaway?,delivery,utensils
+Will my food stay warm?,delivery,warm
+Do you provide contactless delivery?,delivery,contactless_delivery
+What’s your cancellation policy for reservation?,reservation,cancel_reservation
+Do you offer private dining rooms?,reservation,private_event
+How do I cancel my reservation?,reservation,cancel_reservation
+Can I make a reservation for today?,reservation,same_day_reservation
+I want to book a table for today,reservation,same_day_reservation
+Can I stay in the restaurant to study?,reservation,study_sessions_work_meetings
+Is there a deposit required for reservation?,reservation,deposit
+Does your restaurant have wifi?,general,wifi
+What is the wifi password?,general,wifi
+How long am I allowed to stay for?,general,time_limit
+Is there a set time limit?,general,time_limit
+How can I leave a review?,general,feedback
+I would like to leave a review,general,feedback
+Can I post a review?,general,feedback
+What is your website?,general,website
+Can you give me the website link?,general,website
+Where can I access your website?,general,website
+Can I get an outdoor seat?,general,outdoor_seating
+Do you offer outdoor seat?,general,outdoor_seating
+"I would like to sit outside, is this possible?",general,outdoor_seating
+Where can I park?,general,parking
+Is there free parking?,general,parking
+Do you guys have a menu for kids?,menu_cuisine,kids_menu
+Can I get the kids menu?,menu_cuisine,kids_menu
+Are you halal?,menu_cuisine,halal
+Is there halal food?,menu_cuisine,halal
+How big is the portion of food?,menu_cuisine,portion
+Do you have vegan options?,menu_cuisine,vegetarian_vegan
+Is the portion considered large?,menu_cuisine,portion
+When do you open?,general,opening_hours
+Are you open on public holidays?,general,opening_hours
+Where are you located?,general,location
+Do you have parking available?,general,parking
+Can I get directions to your restaurant?,general,location
+How can I contact the restaurant?,general,website
+Do you offer Wi-Fi for customers?,general,wifi
+What payment methods do you accept?,general,payment
+What type of food do you have in your restaurant?,menu_cuisine,food
+Can I see your menu?,menu_cuisine,menu
+Do you have vegetarian options?,menu_cuisine,vegetarian_vegan
+Do you offer vegan dishes?,menu_cuisine,vegetarian_vegan
+Are there any gluten-free items on the menu?,menu_cuisine,gluten_free
+What's your most popular dish?,menu_cuisine,specialty
+Do you have a kids' menu?,menu_cuisine,kids_menu
+Are there any chef specials today?,menu_cuisine,specialty
+What are your dessert options?,menu_cuisine,dessert
+How do I make a reservation?,reservation,make_reservation
+Can I change my reservation?,reservation,change_reservation
+Can I cancel my reservation?,reservation,cancel_reservation
+Do you accept walk-ins?,general,walkins
+Is there a deposit required for large group bookings?,reservation,deposit
+Do you offer private dining rooms?,reservation,private_event
+Can I make a reservation for a special occasion?,reservation,make_reservation
+Do you offer delivery services?,delivery,order_delivery
+Can I order online?,delivery,order_delivery
+Do you have contactless pickup?,delivery,contactless_delivery
+What delivery platforms are you on?,delivery,order_delivery
+Is your food halal/kosher?,menu_cuisine,halal
+How can I leave a review?,general,feedback
+Who do I contact about a complaint?,general,feedback
+"I had a bad experience, can I speak to someone?",general,feedback
+How do I give feedback?,general,feedback
+Can I have the best dish you serve?,menu_cuisine,specialty
+Can I book the restaurant for an event?,reservation,private_event
+Is there a dress code at your restaurant?,general,dresscode
+Can I wear casual clothes to dine in?,general,dresscode
+Do you have outdoor seating available?,general,outdoor_seating
+Can I reserve a table outside?,general,outdoor_seating
+What is your website URL?,general,website
+Can I place an order through your website?,general,website
+Is your menu available on the website?,general,website
+Can I make a reservation on your website?,reservation,make_reservation
+Can I make a same-day reservation?,reservation,same_day_reservation
+How late can I make a reservation for today?,reservation,same_day_reservation
+Is it possible to reserve a table an hour in advance?,reservation,same_day_reservation
+Can I bring my laptop to work at your restaurant?,reservation,study_sessions_work_meetings
+Do you have quiet areas suitable for studying?,reservation,study_sessions_work_meetings
+Do you allow group study sessions?,reservation,study_sessions_work_meetings
+Can I host a business meeting at your place?,reservation,study_sessions_work_meetings
+Can I book the restaurant for a private party?,reservation,private_event
+Do you offer event planning or coordination services?,reservation,private_event
+Can I bring my own decorations for a private event?,reservation,private_event
+What should I do if I received the wrong order?,delivery,wrong_delivery
+Can I get a refund for a wrong delivery?,delivery,wrong_delivery
+Do you offer contactless delivery?,delivery,contactless_delivery
+How do I request contactless delivery?,delivery,contactless_delivery
+Can the delivery be left at my door?,delivery,contactless_delivery
+Can I request minimal packaging?,delivery,packaging
+Do you offer reusable containers?,delivery,packaging
+What kind of packaging do you use for takeout?,delivery,packaging
+Can I request extra utensils?,delivery,utensils
+Do you include utensils with delivery?,delivery,utensils
+Can I opt out of receiving utensils?,delivery,utensils
+Are your utensils biodegradable?,delivery,utensils
+Do you serve alcohol?,menu_cuisine,alcohol
+Do you offer cocktails or just beer and wine?,menu_cuisine,alcohol
+Is your meat halal-certified?,menu_cuisine,halal
+Do you have halal options on your menu?,menu_cuisine,halal
+Can I see a list of your halal dishes?,menu_cuisine,halal
+Is your kitchen fully halal-compliant?,menu_cuisine,halal
+Hello! Is anyone there?,general,greeting
+"Good morning, I have a quick question.",general,greeting
+Hey! Can you help me with something?,general,greeting
+"Thanks, goodbye!",general,thanks
+"Bye, have a great day!",general,thanks
+Thank you so much!,general,thanks
+Appreciate the help!,general,thanks
+Thanks a lot!,general,thanks
+Thanks for the quick response!,general,thanks
+Do you have any dress code policy?,general,dresscode
+Can I request a seat outdoors?,general,outdoor_seating
+Do you have covered outdoor seating?,general,outdoor_seating
+Do you have free Wi-Fi?,general,wifi
+What's the Wi-Fi password?,general,wifi
+Can I use Wi-Fi while dining in?,general,wifi
+Can I check your specials on your website?,general,website
+Do you have online ordering on your website?,general,website
+Is there a menu I can download from your site?,general,website
+Does your website show real-time table availability?,general,website
+Can I book a table for tonight?,reservation,make_reservation
+Can I reserve for this evening?,reservation,make_reservation
+Are there any same-day slots left?,reservation,same_day_reservation
+How do I cancel my booking?,reservation,cancel_reservation
+Can I cancel my reservation online?,reservation,cancel_reservation
+I'd like to make a reservation.,reservation,make_reservation
+Can I book a table for four at 7 PM?,reservation,make_reservation
+Can I make a reservation for next week?,reservation,make_reservation
+Do you host private events?,reservation,private_event
+How do I plan a private dinner at your place?,reservation,private_event
+How do I place a delivery order?,delivery,order_delivery
+Can I order food to be delivered to my home?,delivery,order_delivery
+Can I cancel my delivery order?,delivery,cancel_delivery
+I got the wrong meal. What should I do?,delivery,wrong_delivery
+My order is missing an item. Help!,delivery,wrong_delivery
+I received the wrong drinks in my order.,delivery,wrong_delivery
+Can I get my food left at the door?,delivery,contactless_delivery
+How do I request no-contact delivery?,delivery,contactless_delivery
+Is contactless delivery available by default?,delivery,contactless_delivery
+Do you use plastic or paper packaging?,delivery,packaging
+Is your packaging recyclable?,delivery,packaging
+Can I get eco-friendly packaging?,delivery,packaging
+Can I get chopsticks with my order?,delivery,utensils
+Do you provide napkins and utensils?,delivery,utensils
+Can I opt out of utensils?,delivery,utensils
+Can I get extra spoons and forks?,delivery,utensils
+What do you have on the kids' menu?,menu_cuisine,kids_menu
+Do you offer child-friendly meals?,menu_cuisine,kids_menu
+Are there smaller portions for kids?,menu_cuisine,kids_menu
+Do you have gluten-free bread?,menu_cuisine,gluten_free
+What gluten-free meals do you offer?,menu_cuisine,gluten_free
+Can I request a gluten-free version?,menu_cuisine,gluten_free
+Is your kitchen safe for gluten allergies?,menu_cuisine,gluten_free
+What desserts do you have today?,menu_cuisine,dessert
+Do you have any dairy-free desserts?,menu_cuisine,dessert
+Are your desserts made in-house?,menu_cuisine,dessert
+Do you serve craft beers?,menu_cuisine,alcohol
+Is alcohol served all day?,menu_cuisine,alcohol
+Can I order alcoholic drinks for takeout?,menu_cuisine,alcohol
+Do you serve only halal meat?,menu_cuisine,halal
+Is your food certified halal?,menu_cuisine,halal
+Are all your chicken dishes halal?,menu_cuisine,halal
+Can I request halal preparation for my meal?,menu_cuisine,halal
+Hello there!,general,greeting
+Hi! I'm looking for some information.,general,greeting
+Goodbye and take care!,general,goodbye
+Many thanks!,general,thanks
+Thanks for your assistance!,general,thanks
+Do I need a password to access your Wi-Fi?,general,wifi
+Is Wi-Fi available in all seating areas?,general,wifi
+Can I check your opening hours on the website?,general,website
+Is it too late to book for today?,reservation,same_day_reservation
+Can I call to make a same-day reservation?,reservation,same_day_reservation
+Who should I contact for a wrong item?,delivery,wrong_delivery
+Is contactless delivery available via all platforms?,delivery,contactless_delivery
+Can I choose the type of packaging?,delivery,packaging
+Do you include utensils by default?,delivery,utensils
+Can I request utensils only if needed?,delivery,utensils
+Are your gluten-free items certified?,menu_cuisine,gluten_free
+Do you require ID for alcohol orders?,menu_cuisine,alcohol
+Are your halal options clearly marked?,menu_cuisine,halal
+Do you have a halal certification document?,menu_cuisine,halal

@@ -1,0 +1,34 @@
+{
+    "intents": [
+        {
+            "tag": "make_reservation",
+            "patterns": ["Reservation", "Booking", "I want to book a table", "Can I make a reservation?", "I would like to make a reservation", "How do I make a reservation?"],
+            "responses": ["You can book on our website or directly here. Would you like to make a reservation now? (yes/no)"]
+        },
+        {
+            "tag": "deposit",
+            "patterns": ["Do you require a deposit for reservations?", "Do I need to pay in advance for bookings?"],
+            "responses": ["For groups of ten or more, we may require a small deposit to secure the reservation."]
+        },
+        {
+            "tag": "cancel_reservation",
+            "patterns": ["I want to cancel my reservation.", "Can I cancel my reservation?", "Do you charge for cancelling reservation?"],
+            "responses": ["You may cancel your reservation for free, would you like to proceed?"]
+        },
+        {
+            "tag": "same_day_reservation",
+            "patterns": ["Can I book a table for today?", "Can I make a reservation for today?", "Can I do same day bookings?"],
+            "responses": ["Same-day reservations are allowed, subject to availability."]
+        },
+        {
+            "tag": "study_sessions_work_meetings",
+            "patterns": ["Can I reserve a table for study sessions or work meetings?", "Can I stay for study?", "Can we book for a work meeting?"],
+            "responses": ["We accept reservations for study or work groups, but we ask that you order at least one item per person."]
+        },
+        {
+            "tag": "private_event",
+            "patterns": ["Can I book a private event?", "I want to book for a private event.", "We are doing a private event, can I make a reservation?"],
+            "responses": ["We offer private event spaces for special occasions or corporate gatherings"]
+        }
+    ]
+}

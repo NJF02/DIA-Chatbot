@@ -1,0 +1,39 @@
+{
+    "intents": [
+        {
+            "tag": "order_delivery",
+            "patterns": ["Delivery", "Do you offer delivery?", "Can I get my food delivered?", "How do I order for delivery?", "I would like to place a delivery"],
+            "responses": ["We partner with popular delivery apps like Grab and Shopee Food. You can also place an order here, would you like to proceed? (yes/no)"]
+        },
+        {
+            "tag": "cancel_delivery",
+            "patterns": ["Can I cancel my delivery order after placing it?", "I want to cancel my delivery", "Can you cancel my delivery?"],
+            "responses": ["Orders can only be cancelled before preparation starts. Would you like to proceed?"]
+        },
+        {
+            "tag": "wrong_delivery",
+            "patterns": ["What should I do if I receive the wrong order?", "I received the wrong food", "The food I get does not match with what I ordered"],
+            "responses": ["Please contact us or the delivery service immediately for a replacement or refund."]
+        },
+        {
+            "tag": "packaging",
+            "patterns": ["Do you offer eco-friendly or biodegradable packaging?", "Is there packaging for my food?", "What packaging do you use for delivery?"],
+            "responses": ["We use eco-friendly packaging for most of our takeaway items."]
+        },
+        {
+            "tag": "utensils",
+            "patterns": ["Do you provide utensils with takeout or delivery?", "Will the delivery come with utensils?", "Can I get a spoon and fork with the delivery?"],
+            "responses": ["By default, we include utensils unless you request otherwise. Just let us know your preference."]
+        },
+        {
+            "tag": "warm",
+            "patterns": ["Will hot items stay warm during delivery?", "I want my food to stay warm", "Will I get my food warm?"],
+            "responses": ["We package meals in insulated containers to maintain temperature, but consider reheating if needed."]
+        },
+        {
+            "tag": "contactless_delivery",
+            "patterns": ["Can I request contactless delivery?", "I want to have contactless delivery.", "Can I get my food contactless?"],
+            "responses": ["Just select “contactless delivery” when ordering and our rider will leave your order at your doorstep."]
+        }
+    ]
+}

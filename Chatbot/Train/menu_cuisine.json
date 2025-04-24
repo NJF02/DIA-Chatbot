@@ -1,0 +1,62 @@
+{
+    "intents": [
+        {
+            "tag": "menu",
+            "patterns": ["Menu", "Can I have a look at your menu?", "Show me the menu", "Do you have a menu?", "What's on the menu?"],
+            "responses": ["You can access our website at www.cafebot.com for our menu. We're are happy to assist!"]
+        },
+        {
+            "tag": "food",
+            "patterns": ["What type of food do you serve?", "What kind of food do you sell?", "What can I eat?", "What do you serve?"],
+            "responses": ["We specialise in cafe-style dishes, including gourmet sandwiches, fresh salads, homemade pastries, and specialty coffee."]
+        },
+        {
+            "tag": "specialty",
+            "patterns": ["Can you recommend a signature dish?", "What are you specialties?", "Anything special on the menu?", "What is your best food?", "What is your most popular dish?", "I want to have your specialty dish."],
+            "responses": ["Our Avocado Toast is a customer favorite, along with our signature Cold Brew Coffee.", "Our Spinach Ricotta Ravioli and Turkey Bacon Carbonara are customer favorites!"]
+        },
+        {
+            "tag": "dessert",
+            "patterns": ["Are your desserts made in-house?", "What type of desserts do you serve?", "Do you offer desserts?"],
+            "responses": ["We serve cakes, pastries, and desserts, and they are freshly made in-house daily."]
+        },
+        {
+            "tag": "vegetarian_vegan",
+            "patterns": ["Do you offer vegetarian options?", "Do you offer vegan options?", "Anything vegetarian friendly?", "What do you recommend for vegetarians?"],
+            "responses": ["We have a variety of vegetarian and vegan options, including plant-based sandwiches, dairy-free smoothies, and vegan pastries."]
+        },
+        {
+            "tag": "halal",
+            "patterns": ["Is your restaurant halal-certified?", "Do you serve halal food only?", "Are you a halal restaurant?"],
+            "responses": ["We are a halal-certified restaurant and do not serve alcohol. We offer a variety of specialty coffees, teas, and non-alcoholic mocktails."]
+        },
+        {
+            "tag": "kids_menu",
+            "patterns": ["Do you have a kids' menu?", "Do you have food for kids?", "Can I order something suitable for my kids?", "I want to order food for kids"],
+            "responses": ["We offer kid-friendly options like mini pancakes, grilled cheese sandwiches, and fruit smoothies."]
+        },
+        {
+            "tag": "gluten_free",
+            "patterns": ["Do you have gluten-free items?", "Are you food gluten-free?", "Can I get gluten-free food?"],
+            "responses": ["We offer gluten-free options such as gluten-free bread, pastries, and certain main dishes. Please ask our staff for details."]
+        },
+        {
+            "tag": "alcohol",
+            "patterns": ["Do you serve alcohol?", "Can I buy alcohol?", "I want some alcohol", "Do you sell alcohol?"],
+            "responses": ["We do not serve alcohol as we are a halal-certified café. However, we offer a wide selection of specialty coffees, teas, and non-alcoholic mocktails."]
+        },
+        {
+            "tag": "portion",
+            "patterns": ["How big are the portion sizes for your main courses?", "Are your food in big portions?", "Can I have big portions for the food?", "I want to have big portions for the food."],
+            "responses": ["Our portions are quite generous. Many customers either share or take home leftovers."]
+        },
+        {
+            "tag": "cost",
+            "patterns": ["How much does this cost?", "Can you tell me the price for this?", "I want to know how much I have to pay for this.", "What is the cost of this?"]
+        },
+        {
+            "tag": "calorie",
+            "patterns": ["How much calories does this have?", "Does this have more than 200 calories?", "Please tell me the calories of consuming this.", "What is the calorie for this?"]
+        }
+    ]
+}
