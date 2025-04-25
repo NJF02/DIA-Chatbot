@@ -171,7 +171,7 @@ def update_status(msg):
         user_responses["delivery"]["query"] = False
         if(check_yes_no(msg) == "y"):
             user_responses["delivery"]["process"] = True
-            return "What would you like to order?"
+            return "What would you like to order? We have yogurt parfait, falafel wrap and many more which you can find on www.cafebot.com."
             
         elif(check_yes_no(msg) == "n"):
             return random.choice(prompt_responses)
