@@ -3,9 +3,9 @@
 Bot Cafe Chatbot is a Python-based virtual assistant built to help customers with table reservations, delivery orders, and chat summaries. It's designed to create a smooth and friendly user experience through natural conversation.
 
 ## Basic Features
-Reservation: Book a table easily through chat<br>
-Delivery: Place orders for delivery<br>
-Goodbye: End the chat and receive a summary
+* Reservation: Book a table easily through chat
+* Delivery: Place orders for delivery
+* Goodbye: End the chat and receive a summary
 
 ## Usage Instructions
 ### Train the Chatbot
@@ -22,6 +22,10 @@ To launch the chatbot and begin interaction:
 To assess the chatbot’s performance:
 1. Open and run Evaluation/evaluation.py.
 2. Performance metrics and evaluation results will be displayed in the console.
+
+### Other Files
+* settings&#46;py - setting up working directory for the project.
+* model_framework.py - configurations for neural netwok.
 
 ## Notes and Configurations
 1. Prior to training the chatbot, hyper-parameters for the neural networks can be modified.
