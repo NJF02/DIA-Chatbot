@@ -56,7 +56,7 @@ Some NLTK resources may need to be downloaded manually. Open a new temporary Pyt
 
 ```
 import nltk
-nltk.download('punkt')
+nltk.download("punkt")
 ```
 
 ❌ Issue: Encoding errors when reading files<br>
@@ -64,8 +64,12 @@ nltk.download('punkt')
 Ensure you're using the correct encoding when reading or writing files:
 
 ```
-open('file.txt', 'r', encoding='utf-8')
+open("file.txt", "r", encoding = "utf-8")
 ```
+
+❌ Issue: FileNotFoundError<br>
+✅ Solution:<br>
+Ensure you've trained the bot by running Chatbot/train.py to create the data files for the model.
 
 ❌ Issue: Chatbot not responding as expected<br>
 ✅ Solution:<br>
